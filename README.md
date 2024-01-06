@@ -28,11 +28,16 @@ The dataset underwent a review, involving cleaning, consolidation of databases a
 ## Results and Recommendations
 
 #### Winning model
+
 Our third recommendation emphasizes the adoption and implementation of a predictive model that exhibits commendable recall scores across all classes. This model, boasting a recall score of 72% for the "Functional" class, 73% for the "Non-Functional" class, and another 73% for the "Functional Needs Repair" class, demonstrates its effectiveness in correctly identifying and classifying instances within each category. A high recall score signifies the model's capability to capture a significant portion of the true positive cases, minimizing the chances of overlooking critical issues. By embracing this model, we can enhance our ability to identify and address water pump functionality concerns promptly.
 
 # ![Different model score comparssion](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/model_dis.PNG)
 
 # ![Score of winning model](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/score11.PNG)
+
+the top important features selected by the winning model are
+
+# ![Heat map](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/heatmap.PNG)
 
 
 #### Community involvement and awareness creation  
@@ -60,7 +65,7 @@ The high recall scores signify the model's robust capability to capture a signif
 
 ## For More Information
 
-Please see the full modeling notebooks in the [analysis notebook]() or the [presentation]().
+Please see the full modeling notebooks in the [baseline_model]() or the [Modeling2]().
 
 ## Repo Structure
 
