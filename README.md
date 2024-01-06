@@ -16,6 +16,8 @@ The primary goal of this project is to develop a predictive maintenance model fo
 
 The dataset, sourced from Taarifa and the Tanzanian Ministry of Water, consists of 59,400 records capturing various variables related to water pumps. The dataset encompasses diverse variables, including operational characteristics, installation details, and management practices. Key features such as the amount of water pumped, pump type, installation year, geographical location, and management group provide valuable insights. The target variable, functionality status, exhibits an imbalance with 27,435 functional, 19,386 non-functional, and 3,321 in need of repair instances. Understanding this distribution is crucial for model development, evaluation, and addressing the specific challenges posed by imbalanced classes.
 
+# ![Data understanding](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/well_tab.PNG)
+
 
 
 ## Data Preparation
@@ -23,10 +25,10 @@ The dataset, sourced from Taarifa and the Tanzanian Ministry of Water, consists 
 The dataset underwent a review, involving cleaning, consolidation of databases and tables, and subsequent refinement to ensure a targeted focus on pertinent elements for the analysis. To consolidate the databases & tables, inner joins were used. Duplicates were removed by title, and then, because most movies have two or more genres, '.explode' was used on the dataframe in order to have one row per genre per movie. This allowed us to subset by the horror genre first.
 
 
-## Analysis and Recommendations
+## Results and Recommendations
 
-#### ROI
-Return on investment, or ROI, was explored as it seemed the most logical metric to analyze to assess the financial performance of the initial genre.
+#### Winning model
+Our third recommendation emphasizes the adoption and implementation of a predictive model that exhibits commendable recall scores across all classes. This model, boasting a recall score of 72% for the "Functional" class, 73% for the "Non-Functional" class, and another 73% for the "Functional Needs Repair" class, demonstrates its effectiveness in correctly identifying and classifying instances within each category. A high recall score signifies the model's capability to capture a significant portion of the true positive cases, minimizing the chances of overlooking critical issues. By embracing this model, we can enhance our ability to identify and address water pump functionality concerns promptly.
 
 # ![graph showing mean ROI, highlighting horror as the genre with highest ROI](https://github.com/RigatN/Winning_Movie_Genres_for_New_Studios/blob/main/Images/Mean_ROI.png)
 
@@ -37,17 +39,17 @@ Horror came out on top and was statistically significantly different. We further
 
 We then found the average ROIs across all genres in our data set. We chose a significance level of 0.05. The p-value we arrived at was 4.678. Since this value was lower than 0.05 we were able to reject our null hypothesis and accept the alternative hypothesis. 
 
-#### Mean Profit per Month
-Since horror movies tend to have the highest ROI, we looked at the mean profit per month for the first genre we will focus on.
+#### Community involvement and awareness creation  
 
+Enhance the impact of our initiative, we strongly recommend active community involvement and dedicated efforts toward raising awareness. Engaging with local communities is pivotal for the success of any project aiming to address water-related challenges. Establishing partnerships with community leaders, organizations, and local influencers will foster a sense of ownership and shared responsibility.
 # ![graph mean profit per month for horror movies](https://github.com/RigatN/Winning_Movie_Genres_for_New_Studios/blob/main/Images/Mean_Profit_Horror.jpg)
 
- This graph shows that typically horror films made the most when released in August or September, not October like we had originally surmised. Perhaps movie buffs are looking for some motivation before Halloween.
 
-#### Budget vs. Worldwide Gross
-We also attempted to find a correlation between worldwide gross and production budget. Our logic behind this was to see if the amount of money spent on production had any relationship with worldwide gross income.
+#### Preventive maintenance Specially for old wells 
 
-# ![linear regression between production budget and worldwide profit](https://github.com/RigatN/Winning_Movie_Genres_for_New_Studios/blob/main/Images/Linear_regression_plot_R2.png)
+Establishing a comprehensive preventive maintenance program involves regular inspections, routine assessments, and timely repairs. This initiative not only addresses minor issues before they escalate but also extends the lifespan of the wells, reducing the likelihood of major breakdowns.
+
+# ![Age of well VS status group](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/age.PNG)
 
 In the correlation matrix, we set up between the two variables, the correlation coefficient between these two variables was .74. This indicated a strong to moderate relationship between the two variables and was further corroborated by the R2 value of 0.61 and accounts for the variation around the regression line.
 
