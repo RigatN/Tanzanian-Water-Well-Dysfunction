@@ -30,19 +30,15 @@ The dataset underwent a review, involving cleaning, consolidation of databases a
 #### Winning model
 Our third recommendation emphasizes the adoption and implementation of a predictive model that exhibits commendable recall scores across all classes. This model, boasting a recall score of 72% for the "Functional" class, 73% for the "Non-Functional" class, and another 73% for the "Functional Needs Repair" class, demonstrates its effectiveness in correctly identifying and classifying instances within each category. A high recall score signifies the model's capability to capture a significant portion of the true positive cases, minimizing the chances of overlooking critical issues. By embracing this model, we can enhance our ability to identify and address water pump functionality concerns promptly.
 
-# ![graph showing mean ROI, highlighting horror as the genre with highest ROI](https://github.com/RigatN/Winning_Movie_Genres_for_New_Studios/blob/main/Images/Mean_ROI.png)
+# ![Different model score comparssion](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/model_dis.PNG)
 
-Horror came out on top and was statistically significantly different. We further corroborated this metric with the use of an ANOVA test. First, we set up our Null and Alternate Hypotheses, which are as follows: 
+# ![Score of winning model](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/score11.PNG)
 
-- H<sub>0</sub>: There is no significant difference between the average ROI among all of the varying genres in our data set.
-- H<sub>a</sub>: There is a significant difference between the average ROI of films produced in the Horror Genre, and the average ROIs of movies made in other genres.
-
-We then found the average ROIs across all genres in our data set. We chose a significance level of 0.05. The p-value we arrived at was 4.678. Since this value was lower than 0.05 we were able to reject our null hypothesis and accept the alternative hypothesis. 
 
 #### Community involvement and awareness creation  
 
 Enhance the impact of our initiative, we strongly recommend active community involvement and dedicated efforts toward raising awareness. Engaging with local communities is pivotal for the success of any project aiming to address water-related challenges. Establishing partnerships with community leaders, organizations, and local influencers will foster a sense of ownership and shared responsibility.
-# ![graph mean profit per month for horror movies](https://github.com/RigatN/Winning_Movie_Genres_for_New_Studios/blob/main/Images/Mean_Profit_Horror.jpg)
+# ![Managmetn Vs Status groups](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/schem.PNG)
 
 
 #### Preventive maintenance Specially for old wells 
@@ -51,21 +47,16 @@ Establishing a comprehensive preventive maintenance program involves regular ins
 
 # ![Age of well VS status group](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/age.PNG)
 
-In the correlation matrix, we set up between the two variables, the correlation coefficient between these two variables was .74. This indicated a strong to moderate relationship between the two variables and was further corroborated by the R2 value of 0.61 and accounts for the variation around the regression line.
+## Conclusion 
 
-From the variation around the line, it is hard to say definitively that the more a company spends on production, the greater the worldwide gross income. To find a production budget range that made a decent worldwide gross income, we looked at the lower 25th percentile in spending. To generate a spending range leading to the best projected worldwide gross income. 
+The high recall scores signify the model's robust capability to capture a significant proportion of true positive cases, thereby minimizing the risk of overlooking critical issues. Embracing this model holds the potential to enhance our responsiveness to water pump functionality concerns, contributing to the overall efficiency of our water management system. This strategic adoption underscores our commitment to ensuring accurate and timely interventions based on the model's reliable predictions, ultimately advancing our mission for sustainable and effective water resource management.
 
-## Conclusion and Next Steps
+## Next Step
 
-- First focus will be on creating & releasing horror films, due to typically low production costs and relatively high ROI
-- Action would be the next genre to focus on, since action tends to have the highest mean profit per month
+- Improve model
+- Look into the depth of well
+- Geographical impacts
 
-# ![bar graph showing mean profit per month for action movies](https://github.com/RigatN/Winning_Movie_Genres_for_New_Studios/blob/main/Images/Mean_Profit_Action.jpg)
-
-- Maximize the profitability: May or June would be the ideal months for release: potentially May and June have the highest mean profits since people are on vacation or students are no longer in school so they have more time for leisure activities. November & December could be another good time to release the movie as well, since people may be on vacation or watch more movies around the holidays
-- It should be recognized that action films can entail higher risks, stemming from the elevated budget invested in the production
-- Production budget: keep the budget somewhere in between $3-9.5M range
-- Further analysis on which genres will perform well in the foreign market
 
 ## For More Information
 
@@ -78,7 +69,4 @@ Please see the full modeling notebooks in the [analysis notebook]() or the [pres
 ├── images
 ├── Notebooks
 ├── README.md
-├── Movie Profitability Analysis.pdf
-├── Stats_And_Analysis.ipynb
-└── Final.ipynb
 ```
