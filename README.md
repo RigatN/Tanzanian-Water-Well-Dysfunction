@@ -65,7 +65,7 @@ The high recall scores signify the model's robust capability to capture a signif
 
 ## For More Information
 
-Please see the full modeling notebooks in the [baseline_model]() or the [Modeling2]().
+Please see the full modeling notebooks in the [baseline_model](Notebooks) or the [Modeling2]().
 
 ## Repo Structure
 
