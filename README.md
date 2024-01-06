@@ -1,4 +1,4 @@
-# ![wells](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/tree/main/Images/well2.PNG)
+# ![wells image](https://github.com/RigatN/Tanzanian-Water-Well-Dysfunction/blob/main/Images/well2.PNG)
 
 # Tanzanian Water Well Dysfunction
 
